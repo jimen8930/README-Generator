@@ -7,27 +7,27 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [
     {
         type: 'input',
-        name: "Title",
+        name: "title",
         message: "What is the title of your project?",
     },
     {
         type: 'input',
-        name: "Description",
+        name: "description",
         message: "Write a brief description of your project?",
     },
     {
         type: 'input',
-        name: "Installation",
+        name: "installation",
         message: "Describe the process needed to install your project?",
     },
     {
         type: 'input',
-        name: "Usage",
+        name: "usage",
         message: "What is the usage information needed for this project?",
     },
     {
         type: 'list',
-        name: "License",
+        name: "license",
         message: "What kind of license was used for this project?",
         choices: ['MIT','GPL 3.0', 'APACHE 2.0', 'BSD 3', 'None'],
     },
@@ -38,8 +38,8 @@ const questions = [
     },
     {
         type: 'input',
-        name: "Contribute",
-        message: "Who were the contributors for this project?",
+        name: "contribute",
+        message: "Can I contribute to this project?",
     },
     {
         type: 'input',
