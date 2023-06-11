@@ -17,6 +17,8 @@ To use the README Generator, you need to install Node.js. You can download and i
 
 ## Usage
 To use the README Generator, refer to these steps: Open your terminal or command prompt. Navigate to the project directory. Run the command node index.js to start the application. You will be prompted with a series of questions about your project. Answer each question by providing the requested information. Once you have answered all the questions, the application will generate a README.md file. Find the generated README.md file in the project directory. 
+Here is step by step video tutorial.
+https://youtu.be/TDpOEbXec1Q
 
 ## License
 https://opensource.org/licenses/MIT
