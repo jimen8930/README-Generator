@@ -1,5 +1,5 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Here is a function that returns a license badge based on which license is passed in from the answers given
+// Here are conditional statements. If there is no license, it will return an empty string
 function renderLicenseBadge(license) {
   if (license === "MIT") {
     return`![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`;
@@ -18,7 +18,7 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
+// Created a function that returns the license link and conditional satements 
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === "MIT") {
@@ -38,7 +38,7 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
+// Here is a function that returns the license section of README and conditional statements
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === "MIT") {
@@ -58,7 +58,7 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// Created a function to generate markdown for README based on the answers from the array of questions and it will return the data. 
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}

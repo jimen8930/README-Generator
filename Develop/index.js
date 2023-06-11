@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+// This includes packages needed for this application which are the file system, inquire package, and the pathway for the generate markdown.
 const fs =require('fs');
 const inquirer =require("inquirer");
 const generateMarkdown = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
+// Here is an array of questions for user input which will be prompted in the terminal.
 const questions = [
     {
         type: 'input',
@@ -53,7 +53,7 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
+// This is a function to write README file after all the questions were answered by the user. Also, there is a conditional statement for an error or if the file was succesful. 
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err) {
@@ -65,7 +65,7 @@ function writeToFile(fileName, data) {
     });
 }
 
-// TODO: Create a function to initialize app
+// Here is a function to initialize app so the questions are prompted when you type node index.js. This will also grab the data from generate markdown file to write the README file. 
 function init() {
     inquirer.prompt(questions).then((data) => {
       const markdown = generateMarkdown(data);
