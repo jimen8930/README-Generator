@@ -24,7 +24,7 @@ https://opensource.org/licenses/MIT
 This project is licensed under the MIT License.
 
 ## Contributing
-Contributions to the README Generator are welcome! Here are the guidlines for this project.Fork the repository. Create a new branch for your contribution. Make your changes. Commit and push your changes to your forked repository. Submit a pull request, and provide a detailed description of your changes.
+Contributions to the README Generator are welcome! Here are the guidelines for this project. Fork the repository. Create a new branch for your contribution. Make your changes. Commit and push your changes to your forked repository. Submit a pull request, and provide a detailed description of your changes.
 
 ## Tests
 To run tests, use the following command:
