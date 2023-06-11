@@ -29,7 +29,7 @@ Contributions to the README Generator are welcome! Here are the guidlines for th
 ## Tests
 To run tests, use the following command:
 ```
-npm test
+undefined
 ```
 
 ## Questions
